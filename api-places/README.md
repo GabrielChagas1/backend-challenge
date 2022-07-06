@@ -76,26 +76,26 @@ A aplicação possui 5 endpoints:
 
 ```bash
 	{
-			"id": 1,
-			"country": "Brasil",
-			"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/800px-Flag_of_Brazil.svg.png",
-			"location": "São Paulo",
-			"meta": "Paulista",
-			"created_at": "2022-07-06T00:21:13.000Z",
-			"updated_at": "2022-07-06T00:21:13.000Z"
-		}
+    "id": 1,
+    "country": "Brasil",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/800px-Flag_of_Brazil.svg.png",
+    "location": "São Paulo",
+    "meta": "Paulista",
+    "created_at": "2022-07-06T00:21:13.000Z",
+    "updated_at": "2022-07-06T00:21:13.000Z"
+  }
 ```
 
 - http://localhost:8080/api/v1/place (GET) Busca todos os registros ordenados pela meta
 
 ```bash
 	{
-			"id": 1,
-			"country": "Brasil",
-			"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/800px-Flag_of_Brazil.svg.png",
-			"location": "São Paulo",
-			"meta": "Paulista",
-			"created_at": "2022-07-06T00:21:13.000Z",
-			"updated_at": "2022-07-06T00:21:13.000Z"
-		}
+    "id": 1,
+    "country": "Brasil",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/800px-Flag_of_Brazil.svg.png",
+    "location": "São Paulo",
+    "meta": "Paulista",
+    "created_at": "2022-07-06T00:21:13.000Z",
+    "updated_at": "2022-07-06T00:21:13.000Z"
+  }
 ```
