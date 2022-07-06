@@ -11,6 +11,7 @@ import {
 } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { PlaceModel } from 'src/models/place.model';
+import { PlaceUpdateSchema } from 'src/schemas/placeUpdate.schema';
 import { Repository } from 'typeorm';
 import { PlaceSchema } from '../schemas/place.schema';
 
@@ -46,7 +47,7 @@ export class PlaceController {
   @Put(':id')
   public async update(
     @Param('id', ParseIntPipe) id: number,
-    @Body() body: PlaceSchema,
+    @Body() body: PlaceUpdateSchema,
   ): Promise<PlaceModel> {
     const person = await this.model.findOne({ where: { id } });
     if (!person) {
